@@ -1,0 +1,5 @@
+# HLSL is hand-formatted: clang-format cannot recognize [numthreads(...)]
+# and other HLSL kernel attributes as attributes, so it merges them onto
+# the same line as the function signature.
+*.hlsl
+*.hlsli

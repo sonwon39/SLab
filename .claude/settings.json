@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "WebSearch(*)",
+      "WebFetch(*)",
+      "Bash(*)",
+      "PowerShell(*)"
+    ],
+    "deny": []
+  }
+}

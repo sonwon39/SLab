@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+
+# Build output
+x64/
+Win32/
+Debug/
+Release/
+bin/
+obj/
+*.exe
+*.pdb
+*.ilk
+*.idb
+
+# NuGet (restored from packages.config)
+packages/
+
+# Claude
+.claude/settings.local.json
+
+# Papers / notes
+Papers/**/*.pdf
+Papers/**/*.txt
+
+Assets/

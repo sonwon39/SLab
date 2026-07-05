@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{626DA6D4-BE6A-4A4B-9F4B-7A66641EB0C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\CubeMap">
+      <UniqueIdentifier>{E90CC20E-AEF8-4BE4-8A32-A8109CCCBCDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Default">
+      <UniqueIdentifier>{C5351166-52D2-4B98-8760-6FC434E5B961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Noise">
+      <UniqueIdentifier>{37BC61E8-075E-426A-9375-85CA73CCCF43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\PBR">
+      <UniqueIdentifier>{87124A39-3A76-454E-9E84-F8D1D1D653A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\SPH">
+      <UniqueIdentifier>{5517B626-4F5F-464F-A4F3-A0FD76A145A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\StableFluids">
+      <UniqueIdentifier>{F6C976C1-0FCD-4AD9-967E-8947F13CEF41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8FBD60D3-D1F5-4F00-AA70-C9DDBBB417D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ActorComponents">
+      <UniqueIdentifier>{6596C1AB-BA3B-4124-B0AF-09129A65FD80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Actors">
+      <UniqueIdentifier>{8651A24F-1D4E-4FD0-B032-E7C485F48692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AssetManager">
+      <UniqueIdentifier>{FED82A51-DB7C-4612-88C1-F7028AD4E738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{0793F0CB-ACEC-4F55-9D5D-0080623E9CFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine">
+      <UniqueIdentifier>{66E47D57-36A8-4438-902F-FD0E5097981A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameFramework">
+      <UniqueIdentifier>{28977987-82DC-4715-B1E8-411D6FA0BC11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\InputHelper">
+      <UniqueIdentifier>{888D0215-7E8C-464F-AA38-8CD2F2CC631E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Noise">
+      <UniqueIdentifier>{6EA6E3EE-314D-472D-85E0-AD48D703C3C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PBR">
+      <UniqueIdentifier>{241F67ED-1D2A-4A8F-B528-B5DD4113F6D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SPH">
+      <UniqueIdentifier>{B82C0529-9A25-4A20-AFF0-B55A307F345B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StableFluids">
+      <UniqueIdentifier>{D57C7926-5B68-4424-A274-BBADE441E60A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\FlipWater">
+      <UniqueIdentifier>{460917e3-3ebb-4446-8c99-3759a51b2ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\FlipWater">
+      <UniqueIdentifier>{1a94019f-4be6-4f63-8ea6-5c06ed1ef5f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ActorComponents\Mover.cpp">
+      <Filter>src\ActorComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actors\ACamera.cpp">
+      <Filter>src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actors\ALight.cpp">
+      <Filter>src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actors\AMovingPlatform.cpp">
+      <Filter>src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AssetManager\LightManager.cpp">
+      <Filter>src\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AssetManager\ModelLoader.cpp">
+      <Filter>src\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AssetManager\TextureLoader.cpp">
+      <Filter>src\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\ConstantBuffer.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Texture2D.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Timer.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DescriptorHeap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Level.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\RenderEngine.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Scene.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\World.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\Actor.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\ActorComponent.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\CameraComponent.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\CollisionComponent.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\LightComponent.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\PrimitiveComponent.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\SceneComponent.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\SkinnedMeshComponent.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFramework\StaticMeshComponent.cpp">
+      <Filter>src\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GeometryGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsCommon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputHelper\InputHelper.cpp">
+      <Filter>src\InputHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputHelper\SEngineMouse.cpp">
+      <Filter>src\InputHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshBatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Noise\Noise.cpp">
+      <Filter>src\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PipelineState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RootSignature.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SPH\SPH.cpp">
+      <Filter>src\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StableFluids\StableFluids.cpp">
+      <Filter>src\StableFluids</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StaticMesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FlipWater\FlipWater.cpp">
+      <Filter>src\FlipWater</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ActorComponents\Mover.h">
+      <Filter>src\ActorComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actors\ACamera.h">
+      <Filter>src\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actors\ALight.h">
+      <Filter>src\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actors\AMovingPlatform.h">
+      <Filter>src\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssetManager\Asset.h">
+      <Filter>src\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssetManager\BlendData.h">
+      <Filter>src\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssetManager\LightManager.h">
+      <Filter>src\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssetManager\ModelLoader.h">
+      <Filter>src\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssetManager\TextureLoader.h">
+      <Filter>src\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\ConstantBuffer.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\GPUBuffer.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\IndexBuffer.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\StructuredBuffer.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Texture2D.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Timer.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\VertexBuffer.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataType.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DefaultHLSLCompat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DescriptorHeap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Level.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\RenderEngine.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Scene.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\World.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\Actor.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\ActorComponent.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\ActorData.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\BlendData.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\CameraComponent.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\CollisionComponent.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\LightComponent.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\PhysXMode.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\PrimitiveComponent.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\SceneComponent.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\SkinnedMeshComponent.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\StaticMeshComponent.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFramework\Transform.h">
+      <Filter>src\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GeometryGenerator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalConstant.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsCommon.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HLSLCompat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IBLEnvironment.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageInfo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputHelper\InputHelper.h">
+      <Filter>src\InputHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputHelper\SEngineMouse.h">
+      <Filter>src\InputHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Material.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshBatch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshType.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Noise\Noise.h">
+      <Filter>src\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Noise\NoiseLocalConstant.h">
+      <Filter>src\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PBR\PBRHLSLCompat.h">
+      <Filter>src\PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PipelineState.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RootSignature.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SPH\Particle.h">
+      <Filter>src\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SPH\SPH.h">
+      <Filter>src\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StableFluids\Grid.h">
+      <Filter>src\StableFluids</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StableFluids\StableFluids.h">
+      <Filter>src\StableFluids</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StaticMesh.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utility.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vertex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FlipWater\FlipGrid.h">
+      <Filter>src\FlipWater</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FlipWater\FlipWater.h">
+      <Filter>src\FlipWater</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FlipWater\FlipParticle.h">
+      <Filter>src\FlipWater</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\CubeMap\CubeMapPS.hlsl">
+      <Filter>shaders\CubeMap</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\CubeMap\CubeMapVS.hlsl">
+      <Filter>shaders\CubeMap</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Default\DefaultCS.hlsl">
+      <Filter>shaders\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Default\DefaultPS.hlsl">
+      <Filter>shaders\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Default\DefaultVS.hlsl">
+      <Filter>shaders\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Noise\CurlNoiseCS.hlsl">
+      <Filter>shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Noise\CurlNoiseSimulationCS.hlsl">
+      <Filter>shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Noise\NoiseParticleRenderGS.hlsl">
+      <Filter>shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Noise\NoiseParticleRenderPS.hlsl">
+      <Filter>shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Noise\NoiseParticleRenderVS.hlsl">
+      <Filter>shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Noise\NoiseSourcingCS.hlsl">
+      <Filter>shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Noise\PerlinNoiseCS.hlsl">
+      <Filter>shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\PBR\PBRPS.hlsl">
+      <Filter>shaders\PBR</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\PBR\PBRVS.hlsl">
+      <Filter>shaders\PBR</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\PBR\SkinnedMeshVS.hlsl">
+      <Filter>shaders\PBR</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\AddBlockOffsetsCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ClearCounterCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ComputeDensityCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ComputeForcesCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ComputePressureCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\CountingCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ParticleRenderGS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ParticleRenderPS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ParticleRenderVS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ParticleSimulationCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\PrefixSumCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\SPHSimulationCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ScanBlocksCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SPH\ScatterCS.hlsl">
+      <Filter>shaders\SPH</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\StableFluids\AdvectionCS.hlsl">
+      <Filter>shaders\StableFluids</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\StableFluids\ComputeCurlCS.hlsl">
+      <Filter>shaders\StableFluids</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\StableFluids\ComputeDivergenceCS.hlsl">
+      <Filter>shaders\StableFluids</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\StableFluids\ComputeFinalVelocityCS.hlsl">
+      <Filter>shaders\StableFluids</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\StableFluids\JacobiCS.hlsl">
+      <Filter>shaders\StableFluids</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\StableFluids\SourcingCS.hlsl">
+      <Filter>shaders\StableFluids</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\StableFluids\VorticityConfinementCS.hlsl">
+      <Filter>shaders\StableFluids</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipBallisticCS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipParticlePS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipParticleVS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipBackgroundPS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipBackgroundVS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipCompositePS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipDepthPS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipSmoothPS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FlipWater\FlipThickPS.hlsl">
+      <Filter>shaders\FlipWater</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\CubeMap\CubeMapCommon.hlsli">
+      <Filter>shaders\CubeMap</Filter>
+    </None>
+    <None Include="shaders\Default\DefaultCommon.hlsli">
+      <Filter>shaders\Default</Filter>
+    </None>
+    <None Include="shaders\Noise\NoiseCommon.hlsli">
+      <Filter>shaders\Noise</Filter>
+    </None>
+    <None Include="shaders\PBR\PBRCommon.hlsli">
+      <Filter>shaders\PBR</Filter>
+    </None>
+    <None Include="shaders\SPH\CountingSortCommon.hlsli">
+      <Filter>shaders\SPH</Filter>
+    </None>
+    <None Include="shaders\SPH\ParticleCommon.hlsli">
+      <Filter>shaders\SPH</Filter>
+    </None>
+    <None Include="shaders\SPH\SPHUtility.hlsli">
+      <Filter>shaders\SPH</Filter>
+    </None>
+    <None Include="shaders\StableFluids\StableFluidsUtility.hlsli">
+      <Filter>shaders\StableFluids</Filter>
+    </None>
+    <None Include="src\AssetManager\Asset.inl">
+      <Filter>src\AssetManager</Filter>
+    </None>
+    <None Include="src\Core\ConstantBuffer.inl">
+      <Filter>src\Core</Filter>
+    </None>
+    <None Include="src\Core\GPUBuffer.inl">
+      <Filter>src\Core</Filter>
+    </None>
+    <None Include="src\Core\IndexBuffer.inl">
+      <Filter>src\Core</Filter>
+    </None>
+    <None Include="src\Core\StructuredBuffer.inl">
+      <Filter>src\Core</Filter>
+    </None>
+    <None Include="src\Core\VertexBuffer.inl">
+      <Filter>src\Core</Filter>
+    </None>
+    <None Include="src\StaticMesh.inl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\Utility.inl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="shaders\FlipWater\FlipCommon.hlsli">
+      <Filter>shaders\FlipWater</Filter>
+    </None>
+  </ItemGroup>
+</Project>
